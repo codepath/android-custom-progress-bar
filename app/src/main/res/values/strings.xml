@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom Progress Bar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="reset_progress">Reset Progress</string>
+</resources>
