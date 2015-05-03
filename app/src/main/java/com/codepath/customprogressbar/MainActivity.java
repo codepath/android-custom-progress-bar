@@ -21,13 +21,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
-        progressBar.setMax(100);
         resetProgress();
     }
 
     @OnClick(R.id.resetProgressBtn)
     public void resetProgress() {
-        int prog = random.nextInt(progressBar.getMax());
+        int prog = random.nextInt(100);
         progressBar.setProgress(prog);
     }
 }
