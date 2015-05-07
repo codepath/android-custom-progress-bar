@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.inject(this);
 
+        progressBar.setGoal(70);
+
         if (savedInstanceState == null) {
             resetProgress();
         }

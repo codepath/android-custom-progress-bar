@@ -1,5 +1,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -11,10 +12,15 @@
 
     <com.codepath.customprogressbar.GoalProgressBar
         android:id="@+id/progressBar"
-        style="?android:progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:indeterminate="false"/>
+        app:goalIndicatorHeight="16dp"
+        app:goalIndicatorThickness="4dp"
+        app:goalReachedColor="@color/green"
+        app:goalNotReachedColor="@color/dark_gray"
+        app:unfilledSectionColor="@color/gray"
+        app:barThickness="4dp"
+        app:indicatorType="square"/>
 
     <Button
         android:id="@+id/resetProgressBtn"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GoalProgressBar">
+        <attr name="goalIndicatorHeight" format="dimension"/>
+        <attr name="goalIndicatorThickness" format="dimension"/>
+        <attr name="goalReachedColor" format="color"/>
+        <attr name="goalNotReachedColor" format="color"/>
+        <attr name="unfilledSectionColor" format="color"/>
+        <attr name="barThickness" format="dimension"/>
+        <attr name="indicatorType" format="enum">
+            <enum name="line" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
